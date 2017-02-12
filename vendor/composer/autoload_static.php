@@ -7,12 +7,66 @@ namespace Composer\Autoload;
 class ComposerStaticInit9edea2a256006dcd4b62155f031654bb
 {
     public static $files = array (
-        'bf9f5270ae66ac6fa0290b4bf47867b7' => __DIR__ . '/../..' . '/adodb.inc.php',
+        'bf9f5270ae66ac6fa0290b4bf47867b7' => __DIR__ . '/..' . '/adodb/adodb-php/adodb.inc.php',
+        '62f074155aed03519d9dcdf0ea31eefb' => __DIR__ . '/../..' . '/adodb.inc.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'A' => 
+        array (
+            'Amenadiel\\JpGraph\\Util\\' => 23,
+            'Amenadiel\\JpGraph\\Themes\\' => 25,
+            'Amenadiel\\JpGraph\\Text\\' => 23,
+            'Amenadiel\\JpGraph\\Plot\\' => 23,
+            'Amenadiel\\JpGraph\\Image\\' => 24,
+            'Amenadiel\\JpGraph\\Graph\\' => 24,
+            'Amenadiel\\JpGraph\\' => 18,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Amenadiel\\JpGraph\\Util\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/util',
+            1 => __DIR__ . '/..' . '/amenadiel/jpgraph/src/util',
+        ),
+        'Amenadiel\\JpGraph\\Themes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/themes',
+            1 => __DIR__ . '/..' . '/amenadiel/jpgraph/src/themes',
+        ),
+        'Amenadiel\\JpGraph\\Text\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/text',
+            1 => __DIR__ . '/..' . '/amenadiel/jpgraph/src/text',
+        ),
+        'Amenadiel\\JpGraph\\Plot\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/plot',
+            1 => __DIR__ . '/..' . '/amenadiel/jpgraph/src/plot',
+        ),
+        'Amenadiel\\JpGraph\\Image\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/image',
+            1 => __DIR__ . '/..' . '/amenadiel/jpgraph/src/image',
+        ),
+        'Amenadiel\\JpGraph\\Graph\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/graph',
+            1 => __DIR__ . '/..' . '/amenadiel/jpgraph/src/graph',
+        ),
+        'Amenadiel\\JpGraph\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/..' . '/amenadiel/jpgraph/src',
+        ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9edea2a256006dcd4b62155f031654bb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9edea2a256006dcd4b62155f031654bb::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

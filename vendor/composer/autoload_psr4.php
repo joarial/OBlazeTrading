@@ -6,4 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Amenadiel\\JpGraph\\Util\\' => array($baseDir . '/src/util', $vendorDir . '/amenadiel/jpgraph/src/util'),
+    'Amenadiel\\JpGraph\\Themes\\' => array($baseDir . '/src/themes', $vendorDir . '/amenadiel/jpgraph/src/themes'),
+    'Amenadiel\\JpGraph\\Text\\' => array($baseDir . '/src/text', $vendorDir . '/amenadiel/jpgraph/src/text'),
+    'Amenadiel\\JpGraph\\Plot\\' => array($baseDir . '/src/plot', $vendorDir . '/amenadiel/jpgraph/src/plot'),
+    'Amenadiel\\JpGraph\\Image\\' => array($baseDir . '/src/image', $vendorDir . '/amenadiel/jpgraph/src/image'),
+    'Amenadiel\\JpGraph\\Graph\\' => array($baseDir . '/src/graph', $vendorDir . '/amenadiel/jpgraph/src/graph'),
+    'Amenadiel\\JpGraph\\' => array($baseDir . '/src', $vendorDir . '/amenadiel/jpgraph/src'),
 );

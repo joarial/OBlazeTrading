@@ -1,1 +1,105 @@
-[]
+[
+    {
+        "name": "adodb/adodb-php",
+        "version": "v5.20.9",
+        "version_normalized": "5.20.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ADOdb/ADOdb.git",
+            "reference": "f601748cca1ccb86dfd427620a1692a70e681075"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ADOdb/ADOdb/zipball/f601748cca1ccb86dfd427620a1692a70e681075",
+            "reference": "f601748cca1ccb86dfd427620a1692a70e681075",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2016-12-21T17:19:42+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "adodb.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "John Lim",
+                "email": "jlim@natsoft.com",
+                "role": "Author"
+            },
+            {
+                "name": "Damien Regad",
+                "role": "Current maintainer"
+            },
+            {
+                "name": "Mark Newnham",
+                "role": "Developer"
+            }
+        ],
+        "description": "ADOdb is a PHP database abstraction layer library",
+        "homepage": "http://adodb.org/",
+        "keywords": [
+            "abstraction",
+            "database",
+            "layer",
+            "library",
+            "php"
+        ]
+    },
+    {
+        "name": "amenadiel/jpgraph",
+        "version": "3.6.8",
+        "version_normalized": "3.6.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/HuasoFoundries/jpgraph.git",
+            "reference": "f946edf4bafab8137f319525f4686360c7c7db67"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/HuasoFoundries/jpgraph/zipball/f946edf4bafab8137f319525f4686360c7c7db67",
+            "reference": "f946edf4bafab8137f319525f4686360c7c7db67",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2016-09-02T19:49:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Amenadiel\\JpGraph\\": "src/",
+                "Amenadiel\\JpGraph\\Graph\\": "src/graph",
+                "Amenadiel\\JpGraph\\Image\\": "src/image",
+                "Amenadiel\\JpGraph\\Plot\\": "src/plot",
+                "Amenadiel\\JpGraph\\Text\\": "src/text",
+                "Amenadiel\\JpGraph\\Themes\\": "src/themes",
+                "Amenadiel\\JpGraph\\Util\\": "src/util"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "QPL 1.0"
+        ],
+        "description": "jpGraph, library to make graphs and charts",
+        "homepage": "http://jpgraph.net/",
+        "keywords": [
+            "chart",
+            "data",
+            "graph",
+            "jpgraph",
+            "pie"
+        ]
+    }
+]
