@@ -1,0 +1,70 @@
+.captionStyle
+{
+	font-weight: bold;
+    text-align: left;
+}
+.trBuy 
+{
+	color: White;
+    background-color: Green;
+}
+.trGain
+{
+	color: White;
+    background-color: Green;
+}
+.trSell
+{
+	background-color: Orange;
+    color: Black;
+}
+.trOut
+{
+	background-color: Red;
+    color: Black;
+}
+.trLoss
+{
+	background-color: Red;
+    color: Black;
+}
+.trTrigger
+{
+	background-color: Yellow;
+    color: Black;
+}
+.trSummary
+{
+/* Row containing summary data */
+	font-weight: bold;
+}
+.tdName
+{
+/* Table data cells containing names */
+	padding-right: 16;
+}
+.tdFigure
+{
+/* Table data cell with figures */
+	text-align: right;
+}
+.tdCenter
+{
+/* Table data cell with figures */
+	text-align: center;
+}
+.tdDate
+{
+	text-align: center;
+}
+.trHead
+{
+	font-weight: bold;
+	text-align: center;
+	background-color: Blue;
+	color: White;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color: black;
+}

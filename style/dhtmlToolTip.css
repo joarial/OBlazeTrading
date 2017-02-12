@@ -1,0 +1,12 @@
+#dhtmltooltip
+{
+	position: absolute;
+	width: 150px;
+	border: 1px solid #C1C1C1;
+	padding: 2px;
+	background-color: #EFEFEF;
+	color: #000000;
+	visibility: hidden;
+	z-index: 100;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}

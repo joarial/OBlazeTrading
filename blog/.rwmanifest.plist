@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DigestAlgorithm</key>
+	<string>MD5</string>
+	<key>Pages</key>
+	<dict>
+		<key>page1</key>
+		<dict>
+			<key>CreationDate</key>
+			<date>2007-11-11T19:04:51Z</date>
+			<key>DigestAlgorithm</key>
+			<string>MD5</string>
+			<key>DocumentGUID</key>
+			<string>9E6DD5B0-6C61-45F7-99E6-513E3D37BEB9</string>
+			<key>PageDigests</key>
+			<dict>
+				<key>blog.html</key>
+				<dict>
+					<key>Digest</key>
+					<data>
+					iWxfLtjU1vZtatzsxE/2Ug==
+					</data>
+					<key>Size</key>
+					<integer>5695</integer>
+				</dict>
+			</dict>
+			<key>PageID</key>
+			<string>page1</string>
+			<key>Version</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>Version</key>
+	<integer>3</integer>
+</dict>
+</plist>
